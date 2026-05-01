@@ -107,4 +107,3 @@ As you progress through the labs, concepts build upon each other. Ensure you und
 
 **Happy Learning!** 🎉
 
-For any questions or issues, refer to the official Go documentation or community forums.
