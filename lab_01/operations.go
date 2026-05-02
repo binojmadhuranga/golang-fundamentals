@@ -46,4 +46,23 @@ func main() {
     c /= 2
     fmt.Println("c /= 2:", c)
 
+	
+    // 🔹 Increment / Decrement
+    d := 10
+    fmt.Println("\nIncrement / Decrement:")
+    d++
+    fmt.Println("d++:", d)
+    d--
+    fmt.Println("d--:", d)
+
+    // 🔹 Bitwise
+    e := 6  // 110
+    f := 3  // 011
+
+    fmt.Println("\nBitwise Operations:")
+    fmt.Println("e & f:", e & f)
+    fmt.Println("e | f:", e | f)
+    fmt.Println("e ^ f:", e ^ f)
+    fmt.Println("e << 1:", e << 1)
+    fmt.Println("e >> 1:", e >> 1)
 }
