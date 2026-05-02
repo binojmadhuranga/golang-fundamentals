@@ -55,14 +55,12 @@ func main() {
 		age  int
 	}
 
+
 	person1 := Person{name: "Binoj", age: 25}
 
-	// 🔹 12. Zero values
 	var zeroInt int
 	var zeroString string
 	var zeroBool bool
-
-	// 🔹 OUTPUT
 
 	fmt.Println("Integers:", a, b, c, d, e)
 	fmt.Println("Unsigned:", u, u8, u16, u32, u64)
@@ -82,4 +80,18 @@ func main() {
 	fmt.Println("Struct:", person1)
 
 	fmt.Println("Zero values:", zeroInt, zeroString, zeroBool)
+
+
+
+   //Example use of short variable declaration
+
+	name2 := "Binoj2"
+	age2 := 25
+
+	fmt.Println("Name:", name2)
+	fmt.Println("Age:", age2)
+
+
+
+
 }
